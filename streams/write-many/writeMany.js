@@ -66,7 +66,7 @@ const fs = require('node:fs/promises');
 	// console.timeEnd('writeMany');
 	let i = 0;
 
-	const numberOfWrites = 1000000;
+	const numberOfWrites = 10000000;
 
 	const writeMany = () => {
 		while (i < numberOfWrites) {
